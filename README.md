@@ -1,1 +1,1 @@
-Launch index.html to see my personal portfolio website
+Hi this is my Portfolio website, where you can see more about me. I will keep on updating it as I progress through my life. Feel free to contact me and follow on my Social media to support, suggestions and contact me.
