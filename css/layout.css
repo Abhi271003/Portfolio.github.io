@@ -331,27 +331,22 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: Python 2s ease;
 }
 .Java {
-  	width: 45%;
+  	width: 40%;
   	-moz-animation: Java 2s ease;
   	-webkit-animation: Java 2s ease;
 }
-.JavaScript {
-  	width: 20%;
-  	-moz-animation: Javascript 2s ease;
-  	-webkit-animation: Javascript 2s ease;
+.DataScience {
+  	width: 30%;
+  	-moz-animation: DataScience 2s ease;
+  	-webkit-animation: DataScience 2s ease;
 }
 .css_html5 {
-  	width: 50%;
+  	width: 70%;
   	-moz-animation: css_html5 2s ease;
   	-webkit-animation: css_html5 2s ease;
 }
-.ML {
-  	width: 45%;
-  	-moz-animation: ML 2s ease;
-  	-webkit-animation: ML 2s ease;
-}
 .NILabVIEW {
-  	width: 40%;
+  	width: 85%;
   	-moz-animation: NILabVIEW 2s ease;
   	-webkit-animation: NILabVIEW 2s ease;
 }
@@ -362,23 +357,19 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes Java {
   0%   { width: 0px;  }
-  100% { width: 45%;  }
+  100% { width: 40%;  }
 }
-@-moz-keyframes Javascript {
+@-moz-keyframes DataScience {
   0%   { width: 0px;  }
-  100% { width: 20%;  }
+  100% { width: 30%;  }
 }
 @-moz-keyframes css_html5 {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes ML {
-  0%   { width: 0px;  }
-  100% { width: 45%;  }
+  100% { width: 70%;  }
 }
 @-moz-keyframes NILabVIEW {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width: 85%;  }
 }
 
 @-webkit-keyframes Python {
@@ -387,23 +378,19 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes Java {
   0%   { width: 0px;  }
-  100% { width: 45%;  }
+  100% { width: 40%;  }
 }
-@-webkit-keyframes Javascript {
+@-webkit-keyframes DataScience {
   0%   { width: 0px;  }
-  100% { width: 20%;  }
+  100% { width: 30%;  }
 }
 @-webkit-keyframes css_html5 {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes ML {
-  0%   { width: 0px;  }
-  100% { width: 45%;  }
+  100% { width: 70%;  }
 }
 @-webkit-keyframes NILabVIEW {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width: 85%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -870,6 +857,18 @@ call-to-action .button {
 	border-radius: 3px;
    margin-left: 26%;
 }
+
+#c{
+   text-transform: uppercase;
+	letter-spacing: 3px;
+	border: none;
+   cursor: pointer;
+   height: auto;
+   display: inline-block;
+	border-radius: 3px;
+   margin-left: 26%;
+}
+
 #contact button.submit:hover {
 	color: #0D0D0D;
 	background: #fff;
